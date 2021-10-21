@@ -1,5 +1,7 @@
 # electron v15.3.0 生成快照的示例
 
+实现思路主要参考 https://github.com/inkdropapp/electron-v8snapshots-example ，在此基础上引入 `@thlorenz/electron-mksnapshot` 库解决快照版本问题。
+
 ## 1. 安装依赖
 
 ```bash
